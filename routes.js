@@ -9,6 +9,7 @@ const Inicio = () => import('./src/components/HelloWorld.vue');
 const Aristoteles = () => import('./src/PaginaAristoteles.vue');
 const Platao = () => import('./src/PaginaPlatao.vue');
 const Socrates = () => import('./src/PaginaSocrates.vue');
+const Imagens = () => import('./src/PaginaImagens.vue')
 
   const routes = [
     {
@@ -30,6 +31,11 @@ const Socrates = () => import('./src/PaginaSocrates.vue');
       path: '/socrates',
       name: 'Socrates',
       component: Socrates
+    },
+    {
+      path: '/imagens',
+      name: 'Imagens',
+      component: Imagens
     }
   ];
 
