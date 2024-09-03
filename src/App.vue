@@ -6,6 +6,7 @@
       <router-link to="/aristoteles">Aristoteles</router-link>
       <router-link to="/platao">Platao</router-link>
       <router-link to="/Socrates">Socrates</router-link>
+      <router-link to="/imagens">Página Imagens de alta qualidade</router-link>     
     </header>
    
     <router-view></router-view>
