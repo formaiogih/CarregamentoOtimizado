@@ -2,11 +2,13 @@
   <div id="app">
     <HeaderIndex/>
     <header>
-      <router-link to="/inicio">Início</router-link>
-      <router-link to="/aristoteles">Aristoteles</router-link>
-      <router-link to="/platao">Platao</router-link>
-      <router-link to="/Socrates">Socrates</router-link>
-      <router-link to="/imagens">Página Imagens de alta qualidade</router-link>     
+
+        <router-link to="/inicio">Início.....</router-link>
+        <router-link to="/aristoteles">.....Aristoteles.....</router-link>
+        <router-link to="/platao">.....Platao.....</router-link>
+        <router-link to="/socrates">.....Socrates.....</router-link>
+        <router-link to="/imagens">.....Imagens alta qualidade</router-link>
+
     </header>
    
     <router-view></router-view>
@@ -28,6 +30,8 @@ export default {
 }
 </script>
 <style>
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
